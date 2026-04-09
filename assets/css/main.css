@@ -4147,3 +4147,14 @@ input, select, textarea {
 		}
 
 	}
+
+	.clickable {
+	color: gray;
+	text-decoration: underline;
+	cursor: pointer;
+	}
+
+	.clickable:hover {
+	color: darkgray;
+	text-decoration: none;
+	}
