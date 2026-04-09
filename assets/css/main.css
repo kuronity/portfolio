@@ -4158,3 +4158,20 @@ input, select, textarea {
 	color: darkgray;
 	text-decoration: none;
 	}
+
+	.header-row {
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;             /* space between name and icon */
+	}
+
+	.header-row h1 {
+	margin: 0;             /* remove default spacing */
+	}
+
+	.icons {
+		display: flex;
+		margin: 0;
+  		padding: 0;
+		margin-left: auto;
+	}
